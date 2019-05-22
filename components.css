@@ -577,6 +577,5 @@ a:hover {
   background: var(--color-white);
   border-radius: var(--border-radius-default);
   box-shadow: var(--box-shadow-default);
-  margin: var(--spacing-4) 0;
   padding: var(--spacing-8);
 }
