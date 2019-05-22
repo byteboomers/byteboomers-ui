@@ -223,6 +223,7 @@ textarea {
 
 .grid {
   display: grid;
+  column-gap: var(--spacing-4);
 }
 
 .grid-3 {
