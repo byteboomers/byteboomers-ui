@@ -222,8 +222,9 @@ textarea {
 /* Grid */
 
 .grid {
-  display: grid;
   column-gap: var(--spacing-4);
+  display: grid;
+  row-gap: var(--spacing-4);
 }
 
 .grid-3 {
