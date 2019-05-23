@@ -2,3 +2,4 @@
 
 - bjornkrols.com
 - blog.byteboomers.com
+- dashboard.lyticus.com
