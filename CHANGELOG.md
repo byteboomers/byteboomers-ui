@@ -1,3 +1,7 @@
+## 1.0.5
+
+- Added grid-8 variant
+
 ## 1.0.4
 
 - Removed text-align from .table td, .table th

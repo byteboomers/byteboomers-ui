@@ -236,6 +236,10 @@ textarea {
   grid-template-columns: repeat(6, 1fr);
 }
 
+.grid-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
 @media only screen and (min-width: 0) {
   .col-xs-1 {
     grid-column: span 1;
@@ -254,6 +258,12 @@ textarea {
   }
   .col-xs-6 {
     grid-column: span 6;
+  }
+  .col-xs-7 {
+    grid-column: span 7;
+  }
+  .col-xs-8 {
+    grid-column: span 8;
   }
 }
 
@@ -276,6 +286,12 @@ textarea {
   .col-sm-6 {
     grid-column: span 6;
   }
+  .col-sm-7 {
+    grid-column: span 7;
+  }
+  .col-sm-8 {
+    grid-column: span 8;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -296,6 +312,12 @@ textarea {
   }
   .col-md-6 {
     grid-column: span 6;
+  }
+  .col-md-7 {
+    grid-column: span 7;
+  }
+  .col-md-8 {
+    grid-column: span 8;
   }
 }
 
@@ -318,6 +340,12 @@ textarea {
   .col-lg-6 {
     grid-column: span 6;
   }
+  .col-lg-7 {
+    grid-column: span 7;
+  }
+  .col-lg-8 {
+    grid-column: span 8;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -338,6 +366,12 @@ textarea {
   }
   .col-xl-6 {
     grid-column: span 6;
+  }
+  .col-xl-7 {
+    grid-column: span 7;
+  }
+  .col-xl-8 {
+    grid-column: span 8;
   }
 }
 
