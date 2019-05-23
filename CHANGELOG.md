@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Removed text-decoration on hovered button
+
 ## 1.0.2
 
 - Set default row-gap of .grid to 1rem
