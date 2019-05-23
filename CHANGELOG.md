@@ -1,3 +1,7 @@
+## 1.0.4
+
+- Removed text-align from .table td, .table th
+
 ## 1.0.3
 
 - Removed text-decoration on hovered button

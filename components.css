@@ -540,7 +540,6 @@ a:hover {
 
 .table td,
 .table th {
-  text-align: left;
   padding: var(--spacing-2);
 }
 
