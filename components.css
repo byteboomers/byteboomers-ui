@@ -555,13 +555,13 @@ a:hover {
 /* Notification */
 
 .notification {
-  color: var(--color-white);
-  background: var(--color-black);
-  border-radius: var(--border-radius-default);
-  box-shadow: var(--box-shadow-lg);
-  margin: var(--spacing-4) 0;
-  max-width: var(--max-width-xl);
-  padding: var(--spacing-4);
+  color: var(--color-white)!important;
+  background: var(--color-black)!important;
+  border-radius: var(--border-radius-default)!important;
+  box-shadow: var(--box-shadow-lg)!important;
+  margin: var(--spacing-4) 0!important;
+  max-width: var(--max-width-xl)!important;
+  padding: var(--spacing-4)!important;
 }
 
 /* Table */

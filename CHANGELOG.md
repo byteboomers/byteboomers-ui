@@ -1,10 +1,14 @@
+## 1.0.7
+
+- Make all .notification styles important
+
 ## 1.0.6
 
-- Fixed form--loading
+- Fixed .form--loading
 
 ## 1.0.5
 
-- Added grid-8 variant
+- Added .grid-8 variant
 
 ## 1.0.4
 
@@ -12,7 +16,7 @@
 
 ## 1.0.3
 
-- Removed text-decoration on hovered button
+- Removed text-decoration on hovered .button
 
 ## 1.0.2
 
