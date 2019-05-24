@@ -164,6 +164,7 @@
 
 .form--loading:before {
   background: rgba(255, 255, 255, 0.8);
+  content: "";
   height: 100%;
   left: 0;
   position: absolute;

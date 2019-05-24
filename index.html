@@ -106,7 +106,18 @@
         </section>
         <h2 class="text-3xl mt-8 mb-6">Form</h2>
         <section class="segment">
-          <form class="form">
+            <div class="mb-4">
+                <label for="form--loading">
+                  <input
+                    type="checkbox"
+                    id="form--loading"
+                    name="form--loading"
+                    v-model="form.loading"
+                  />
+                  loading
+                </label>
+              </div>
+          <form :class="['form', form.loading && 'form--loading']" data-loading-text="Loading...">
             <div class="form__field">
               <label class="form__field__label">Text input</label>
               <input type="text" placeholder="placeholder" />
@@ -275,6 +286,9 @@
           return {
             buttons: {
               disabled: false
+            },
+            form: {
+              loading: false
             },
             table: {
               bordered: false,

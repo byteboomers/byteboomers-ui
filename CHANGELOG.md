@@ -1,3 +1,7 @@
+## 1.0.6
+
+- Fixed form--loading
+
 ## 1.0.5
 
 - Added grid-8 variant
