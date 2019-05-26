@@ -1,6 +1,19 @@
 {
   "name": "byteboomers-ui",
   "version": "1.0.7",
+  "description": "Byteboomers UI",
+  "author": "Bjorn Krols (https://byteboomers.com)",
+  "license": "MIT",
+  "keywords": [],
+  "homepage": "https://github.com/byteboomers/byteboomers-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byteboomers/byteboomers-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/byteboomers/byteboomers-ui/issues"
+  },
+  "scripts": {},
   "dependencies": {},
   "devDependencies": {}
 }
