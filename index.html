@@ -62,6 +62,12 @@
               Link
             </button>
             <button
+              class="button button--link-muted"
+              :disabled="buttons.disabled"
+            >
+              Link muted
+            </button>
+            <button
               class="button button--link-inverted"
               :disabled="buttons.disabled"
             >
@@ -72,25 +78,43 @@
             <a href="#" class="button" :disabled="buttons.disabled">
               Regular
             </a>
-            <a href="#" class="button button--primary" :disabled="buttons.disabled">
+            <a
+              href="#"
+              class="button button--primary"
+              :disabled="buttons.disabled"
+            >
               Primary
             </a>
-            <a href="#"
+            <a
+              href="#"
               class="button button--positive"
               :disabled="buttons.disabled"
             >
               Positive
-            </button>
-            <a href="#"
+            </a>
+            <a
+              href="#"
               class="button button--negative"
               :disabled="buttons.disabled"
             >
               Negative
-            </button>
-            <a href="#" class="button button--link" :disabled="buttons.disabled">
+            </a>
+            <a
+              href="#"
+              class="button button--link"
+              :disabled="buttons.disabled"
+            >
               Link
             </a>
-            <a href="#"
+            <a
+              href="#"
+              class="button button--link-muted"
+              :disabled="buttons.disabled"
+            >
+              Link muted
+            </a>
+            <a
+              href="#"
               class="button button--link-inverted"
               :disabled="buttons.disabled"
             >
@@ -106,18 +130,21 @@
         </section>
         <h2 class="text-3xl mt-8 mb-6">Form</h2>
         <section class="segment">
-            <div class="mb-4">
-                <label for="form--loading">
-                  <input
-                    type="checkbox"
-                    id="form--loading"
-                    name="form--loading"
-                    v-model="form.loading"
-                  />
-                  loading
-                </label>
-              </div>
-          <form :class="['form', form.loading && 'form--loading']" data-loading-text="Loading...">
+          <div class="mb-4">
+            <label for="form--loading">
+              <input
+                type="checkbox"
+                id="form--loading"
+                name="form--loading"
+                v-model="form.loading"
+              />
+              loading
+            </label>
+          </div>
+          <form
+            :class="['form', form.loading && 'form--loading']"
+            data-loading-text="Loading..."
+          >
             <div class="form__field">
               <label class="form__field__label">Text input</label>
               <input type="text" placeholder="placeholder" />
