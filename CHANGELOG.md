@@ -1,3 +1,7 @@
+## 1.0.8
+
+- Added .buton--link-muted variant
+
 ## 1.0.7
 
 - Make all .notification styles important

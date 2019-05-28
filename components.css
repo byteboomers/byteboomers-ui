@@ -122,6 +122,18 @@
   text-decoration: underline;
 }
 
+.button--link-muted {
+  background: var(--color-transparent);
+  color: var(--color-gray-1300);
+}
+
+.button--link-muted:hover,
+.button--link-muted:focus {
+  background: var(--color-transparent);
+  color: var(--color-gray-1400);
+  text-decoration: underline;
+}
+
 .button--link-inverted {
   background: var(--color-transparent);
   color: var(--color-white);
