@@ -1,3 +1,7 @@
+## 1.0.9
+
+- Added .buton--link-muted variant
+
 ## 1.0.8
 
 - Added .buton--link-muted variant
