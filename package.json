@@ -20,7 +20,7 @@
   },
   "husky": {},
   "dependencies": {
-    "tailwindcss": "^1.0.5"
+    "tailwindcss": "^1.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.1",
