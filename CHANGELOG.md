@@ -1,3 +1,7 @@
+## 1.0.11
+
+- Added "display: inline-block" to .button
+
 ## 1.0.9
 
 - Added .buton--link-muted variant
