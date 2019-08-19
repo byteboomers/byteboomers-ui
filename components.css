@@ -57,7 +57,7 @@
 
 .button {
   background: var(--color-gray-200);
-  border: none;
+  border: 1px solid transparent;
   border-radius: var(--border-radius-default);
   color: var(--color-gray-1400);
   cursor: pointer;

@@ -2,6 +2,7 @@
 
 - Removed a tag styling, use the .link class for explicit styling
 - Removed input and text area tags styling, use the .input and .textarea classes for explicit styling
+- Added transparent border to buttons
 
 ## 1.0.11
 
