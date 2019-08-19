@@ -1,4 +1,4 @@
-## 1.0.12
+## 1.0.12 (unreleased)
 
 - Removed a tag styling, use the .link class for explicit styling
 - Removed input and text area tags styling, use the .input and .textarea classes for explicit styling
