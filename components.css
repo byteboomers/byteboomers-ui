@@ -449,15 +449,13 @@ textarea {
 
 /* Links */
 
-.link,
-a {
+.link {
   border-color: var(--color-indigo-500);
   color: var(--color-indigo-500);
   text-decoration: none;
 }
 
-.link:hover,
-a:hover {
+.link:hover {
   border-color: var(--color-indigo-600);
   color: var(--color-indigo-600);
   text-decoration: underline;
@@ -568,13 +566,13 @@ a:hover {
 /* Notification */
 
 .notification {
-  color: var(--color-white)!important;
-  background: var(--color-black)!important;
-  border-radius: var(--border-radius-default)!important;
-  box-shadow: var(--box-shadow-lg)!important;
-  margin: var(--spacing-4) 0!important;
-  max-width: var(--max-width-xl)!important;
-  padding: var(--spacing-4)!important;
+  color: var(--color-white) !important;
+  background: var(--color-black) !important;
+  border-radius: var(--border-radius-default) !important;
+  box-shadow: var(--box-shadow-lg) !important;
+  margin: var(--spacing-4) 0 !important;
+  max-width: var(--max-width-xl) !important;
+  padding: var(--spacing-4) !important;
 }
 
 /* Table */

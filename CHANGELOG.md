@@ -1,3 +1,7 @@
+## 1.0.12
+
+- Removed a tag styling, use the .link class for explicit styling
+
 ## 1.0.11
 
 - Added "display: inline-block" to .button
