@@ -4,6 +4,7 @@
 - Removed input and text area tags styling, use the .input and .textarea classes for explicit styling
 - Added transparent border to buttons
 - Migrated from 'background' to 'background-color' where applicable
+- Added .checkbox and .radio classes to use on label wrappers
 
 ## 1.0.11
 

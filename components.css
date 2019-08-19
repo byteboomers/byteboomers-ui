@@ -225,6 +225,14 @@
   width: 100%;
 }
 
+.checkbox,
+.radio {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  user-select: none;
+}
+
 /* Grid */
 
 .grid {
