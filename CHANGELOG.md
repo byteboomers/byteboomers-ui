@@ -1,3 +1,7 @@
+## 1.0.13
+
+- Removed the lean build
+
 ## 1.0.12
 
 - Removed a tag styling, use the .link class for explicit styling
