@@ -1,5 +1,6 @@
 ## 1.0.13
 
+- Improved buttons styling
 - Removed the lean build
 
 ## 1.0.12
