@@ -57,15 +57,20 @@
 
 .button {
   background-color: var(--color-gray-200);
-  border: 1px solid transparent;
+  border: none;
   border-radius: var(--border-radius-default);
   color: var(--color-gray-1400);
   cursor: pointer;
   display: inline-block;
+  font-style: normal;
   font-weight: var(--font-weight-medium);
-  padding: var(--spacing-2) var(--spacing-5);
+  line-height: 1em;
+  outline: 0;
+  padding: 0.8em 1.5em;
   text-align: center;
   text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
