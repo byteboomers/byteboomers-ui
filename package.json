@@ -15,9 +15,6 @@
     "url": "https://github.com/byteboomers/byteboomers-ui/issues"
   },
   "main": "",
-  "scripts": {
-    "build:lean": "postcss ./lean/src.css > ./lean/styles.css"
-  },
   "husky": {},
   "dependencies": {
     "tailwindcss": "^1.1.2"
