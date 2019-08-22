@@ -1,4 +1,4 @@
-## 1.0.13 (unreleased)
+## 1.0.14
 
 - .table now uses em padding
 - Removed padding from .blankslate, use .blankslate.p-8 to recreate it, .blankslate.p-4.md:p-8 for responsive version
