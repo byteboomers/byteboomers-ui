@@ -1,6 +1,7 @@
 ## 1.0.13 (unreleased)
 
-- Improved buttons styling
+- Removed vertical margin from .divider, user .my-4 to recreate it
+- Improved .button styling
 - Removed the lean build
 
 ## 1.0.12

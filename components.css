@@ -165,7 +165,6 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid transparent;
   height: 0;
-  margin: var(--spacing-4) 0;
 }
 
 /* Form */
