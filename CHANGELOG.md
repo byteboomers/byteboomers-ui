@@ -1,7 +1,10 @@
 ## 1.0.13 (unreleased)
 
-- Removed vertical margin from .divider, user .my-4 to recreate it
-- Improved .button styling
+- .table now uses em padding
+- Removed padding from .blankslate, use .blankslate.p-8 to recreate it, .blankslate.p-4.md:p-8 for responsive version
+- Removed padding from .segment, use .segment.p-8 to recreate it, .segment.p-4.md:p-8 for responsive version
+- Removed vertical margin from .divider, use .divider.my-4 to recreate it
+- .button now uses em padding
 - Removed the lean build
 
 ## 1.0.12
